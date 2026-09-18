@@ -1,0 +1,10 @@
+
+p {
+  text-indent: 40px;
+  letter-spacing: 5px;
+}
+
+/* Espaçamento entre letras do título */
+h1 {
+  letter-spacing: 8px;
+}

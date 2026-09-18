@@ -1,0 +1,174 @@
+/* Configurações Gerais */
+
+body{
+    background-color: #d1f2eb;
+}
+nav {
+    background-color: #91d6c8;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center; 
+}
+
+
+.logo-nav img {
+    width: 80px; 
+    height: auto;
+    margin-bottom: 10px; 
+    display: inline-block;
+}
+
+
+.links-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.links-nav a:hover {
+    color: #f39c12;
+}
+
+h1 {
+    color: #16a085;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+.slogan {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #e67e22; 
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#navCentro{
+    text-align: center;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #dcdde1;
+    margin: 20px 0;
+}
+
+
+img, video {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.banner {
+    width: 100%;           
+    max-width: 100%;       
+    height: auto;          
+    display: block;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.produto-img {
+    width: 300px;
+}
+
+
+
+ul, ol {
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    width: auto; 
+    display: inline-block; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+
+table {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #16a085;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #e67e22;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    background-color: #91d6c8;
+    padding: 10px;
+}
+/* Estilização do Botão de Contato no Rodapé */
+.btn-contato {
+    display: inline-block;
+    background-color: #16a085; /* Cor verde/azul pet */
+    color: #ffffff !important; /* Força o texto a ficar branco */
+    text-decoration: none;      /* Remove o sublinhado roxo */
+    padding: 10px 20px;
+    border-radius: 20px;       /* Cantos bem arredondados */
+    font-weight: bold;
+    margin-left: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.btn-github{
+    display: inline-block;
+    
+    color: #7f8c8d !important; 
+    text-decoration: none;      
+    padding: 10px 20px;
+    border-radius: 20px;      
+    font-weight: bold;
+    margin-left: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+}
+.btn-contato:hover {
+    background-color: #e67e22; /* Muda para o laranja da marca */
+   
+}
+
+

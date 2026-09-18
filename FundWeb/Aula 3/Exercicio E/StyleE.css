@@ -1,0 +1,11 @@
+#A, #B, #C, #D{
+height: 100px;
+width: 100px;
+}
+
+#esq{
+    float: left;
+}
+#dir{
+    float: right;
+}

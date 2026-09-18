@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco - Pet Paradise</title>
+    <!-- Vinculação do CSS externo -->
+    <link rel="stylesheet" href="StyleContato.css">
+</head>
+<body>
+
+  
+ <nav>
+        <div class="logo-nav">
+            <img src="img_videos/logo.png" alt="Logo Pet Paradise">
+        </div>
+        <div class="links-nav">
+            <a href="index.html">Home</a> | 
+            <a href="produtos.html">Produtos</a> | 
+            <a href="contato.html">Fale Conosco</a> |
+            <a href="Adocao.html"> Animais para Adoção </a>
+        </div>
+    </nav>
+
+
+    <hr>
+
+    <h1>Fale Conosco</h1>
+    <p class="slogan">Amor em cada detalhe, cuidado em cada patinha.</p>
+    <p>Preencha o formulário abaixo para tirar dúvidas, agendar serviços ou fazer o cadastro do seu pet:</p>
+
+    <!-- Formulário estruturado em tabela -->
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td><label for="nome">Nome do Tutor:</label></td>
+                <td><input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required minlength="3"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="telefone">Telefone / WhatsApp:</label></td>
+                <td><input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="assunto">Assunto:</label></td>
+                <td>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione...</option>
+                        <option value="banho-tosa">Agendamento de Banho e Tosa</option>
+                        <option value="racao-produtos">Dúvidas sobre Rações e Produtos</option>
+                        <option value="veterinario">Consultas e Medicamentos</option>
+                        <option value="outros">Outros assuntos</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="data">Data de Preferência:</label></td>
+                <td><input type="date" id="data" name="data" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="mensagem">Detalhes do Pet / Mensagem:</label></td>
+                <td><textarea id="mensagem" name="mensagem" rows="5" cols="30" placeholder="Informe a raça do pet, porte ou sua dúvida..." required></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Enviar Formulário">
+                    <input type="reset" value="Limpar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+
+    <footer>
+       
+        <br>
+        <p>&copy; 2024 Pet Paradise. Todos os direitos reservados.</p>
+        <p> Desenvolvido por <a href="https://github.com/claranogrmoura" class="btn-github" target="_blank">@claranogrmoura</a></p>
+    </footer>
+
+</body>
+</html>
