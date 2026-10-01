@@ -1,33 +1,53 @@
 /* Configurações Gerais */
 
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 body {
     margin: 0;
+    padding: 0;
+    width: 100%;
     min-height: 100vh;
+
     font-family: Arial, Helvetica, sans-serif;
     color: #2c3e50;
+
     background-image: url(img/Fundo\ do\ site.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #d1f2eb;
+
 }
 
+
+
+
 header {
-    position: relative;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .menu {
-    position: relative;
-
-    width: 100%;
-    margin:  auto;
+width: 100%;
     min-height: 110px;
-    background-color: #91d6c8;
+
+    margin: 0;
     padding: 15px;
-    border-radius: 0px;
+
+    box-sizing: border-box;
+
+    background-color: #91d6c8;
+
+    border-radius: 0;
+
     text-align: center;
+
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -38,11 +58,14 @@ header {
 }
 
 .logo-nav img {
-    width: 200px;
+    width: 190px;
     height: auto;
     border-radius: 50%;
     box-shadow: none;
 }
+
+
+
 
 .links-nav {
     padding-top: 30px;
@@ -72,21 +95,35 @@ header {
 
     color: #ffffff;
 }
+
+
+
+
 main {
-    width: 90%;
+    width: 100%;
     max-width: 1100px;
-    margin:  auto;
-    background-color: rgba(255, 255, 255, 0.92);
+
+    margin: 0 auto;
+
     padding: 70px;
+
+    box-sizing: border-box;
+
+    background-color: rgba(255, 255, 255, 0.92);
+
     border-radius: 15px;
+
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
 }
+
 
 h1 {
     color: #16a085;
-    margin-bottom: 5px;
 
     text-align: center;
+
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -101,55 +138,145 @@ h3 {
     color: #16a085;
 }
 
+
 .slogan {
     font-size: 1.1rem;
+
     font-style: italic;
+
     font-weight: bold;
+
     color: #e67e22;
-    margin-top: 0;
-    margin-bottom: 15px;
+
     text-align: center;
+
+    margin-bottom: 20px;
 }
 
 .descricao {
     text-align: center;
+
     line-height: 1.6;
 }
 
 .apresentacao {
-    position: relative;
     padding: 20px;
+
     text-align: center;
 }
 
-.banner {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-.caixa-informacao {
-    position: relative;
-    background-color: #ffffff;
-    padding: 25px;
-    margin-top: 20px;
-    border-radius: 10px;
+
+
+
+.beneficios {
     text-align: center;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+
+    margin-top: 30px;
 }
+
+.caixa-beneficio {
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 220px;
+
+    min-height: 190px;
+
+    background-color: #ffffff;
+
+    margin: 10px;
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+
+    transition: 0.3s;
+}
+
+.caixa-beneficio:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+}
+
+.icone {
+    font-size: 45px;
+
+    margin-bottom: 10px;
+}
+
+.caixa-beneficio h3 {
+    margin-top: 5px;
+}
+
+.caixa-beneficio p {
+    line-height: 1.5;
+
+    font-size: 0.95rem;
+}
+
+
+.plano {
+    background-color: #91d6c8;
+
+    margin-top: 40px;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.plano h2 {
+    color: #2c3e50;
+}
+
+.plano p {
+    line-height: 1.6;
+}
+
+.plano ul {
+    list-style: none;
+
+    padding: 0;
+
+    line-height: 2;
+}
+
+.plano li {
+    font-weight: bold;
+}
+
+.plano li::before {
+    content: "✓ ";
+
+    color: #16a085;
+}
+
+
+
 
 .botao {
     display: inline-block;
+
     background-color: #16a085;
+
     color: #ffffff;
+
     text-decoration: none;
+
     padding: 12px 20px;
+
     border-radius: 20px;
+
     font-weight: bold;
+
     margin-top: 10px;
+
     transition: 0.3s;
 }
 
@@ -158,6 +285,76 @@ h3 {
 
     transform: translateY(-2px);
 }
+
+
+
+
+.como-funciona {
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+.passo {
+    display: inline-block;
+
+    vertical-align: top;
+
+    width: 250px;
+
+    margin: 10px;
+
+    padding: 20px;
+
+    background-color: #ffffff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.numero {
+    display: inline-block;
+
+    background-color: #e67e22;
+
+    color: #ffffff;
+
+    font-weight: bold;
+
+    padding: 10px 15px;
+
+    border-radius: 50%;
+
+    margin-bottom: 10px;
+}
+
+
+/* Chamada Final */
+
+.chamada {
+    margin-top: 40px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    background-color: #f9e5d2;
+
+    border-radius: 15px;
+}
+
+.chamada h2 {
+    color: #16a085;
+}
+
+.chamada p {
+    line-height: 1.6;
+}
+
+
+
+
 footer {
     position: relative;
     width: 100%;
